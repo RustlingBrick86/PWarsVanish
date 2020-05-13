@@ -1,0 +1,18 @@
+name: PWarsVanish
+main: RustlingBrick86\PWarsVanish\PWarsVanish
+api: 3.0.0
+version: "1.8"
+author: RustlingBrick86
+commands:
+  vanish:
+    description: "Enable/Disable Vanish"
+    permission: "pwarsvanish.use"
+    aliases:
+    - v
+permissions:
+  pwarsvanish.use:
+    description: "Permission to use the vanish command"
+    default: op
+  pwarsvanish.see:
+     description: "Permission to see vanished players"
+     default: op
